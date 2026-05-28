@@ -3,8 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
 [vars]
-ALLOWED_ORIGIN = "http://localhost:5175"
-APP_URL = "http://localhost:5175"
+ALLOWED_ORIGIN = "https://sinc-crm-cgj.pages.dev"
+APP_URL = "https://sinc-crm-cgj.pages.dev"
 RESEND_FROM = "hello@acikkibris.com"
 SYSTEM_ACCOUNT_ID = "a0000000-0000-4000-8000-000000000000"
 
