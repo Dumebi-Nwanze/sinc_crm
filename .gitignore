@@ -5,3 +5,14 @@
 # React Router
 /.react-router/
 /build/
+.env.local
+.dev.vars
+.cursor/
+AGENTS.md
+DESIGN_SYSTEM.md
+SPRINT.md
+database.md
+updates.md  
+worker/node_modules/
+supabase/.temp/
+worker/.wrangler/

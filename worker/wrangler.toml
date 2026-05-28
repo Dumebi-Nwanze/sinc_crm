@@ -1,0 +1,14 @@
+name = "sinc-crm-api"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "http://localhost:5175"
+APP_URL = "http://localhost:5175"
+RESEND_FROM = "hello@acikkibris.com"
+SYSTEM_ACCOUNT_ID = "a0000000-0000-4000-8000-000000000000"
+
+# Set these in wrangler secrets or uncomment for local dev:
+SUPABASE_URL = "https://xgyveryhqwjspqsriykh.supabase.co"
+
+secrets = ["SUPABASE_JWT_SECRET", "SUPABASE_SERVICE_ROLE_KEY", "RESEND_API_KEY"]

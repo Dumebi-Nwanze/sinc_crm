@@ -1,0 +1,7 @@
+import { createClient } from "@supabase/supabase-js";
+
+export function createSupabaseAdmin(url: string, serviceRoleKey: string) {
+  return createClient(url, serviceRoleKey, {
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+}
